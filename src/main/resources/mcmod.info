@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "bepspam",
+    "name": "Bepspam",
+    "description": "Bep",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "bepitone.com",
+    "updateUrl": "",
+    "authorList": [
+      "EBS",
+      "Bep"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
