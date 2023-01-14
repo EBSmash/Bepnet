@@ -40,7 +40,7 @@ public class Bepspam {
 
         if (!timer.hasReached(60000)) return;
 
-        if (event.getMessage().getFormattedText().contains("bep")){
+        if (event.getMessage().getFormattedText().toLowerCase().contains("bep")){
             System.out.println("bep detected.");
             Minecraft.getMinecraft().player.sendChatMessage("bep");
             timer.reset();
